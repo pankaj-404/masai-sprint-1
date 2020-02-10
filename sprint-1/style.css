@@ -1,7 +1,7 @@
 body{background-color: white;
 color: black;
-font-size: 15px;
-margin: 0;}
+font-size: 20px;
+margin: 0 ;line-height: 25px;}
 
 .container{
     width: 80%;
@@ -15,15 +15,15 @@ margin: 0;}
      padding: 10px 0;
 }
 #navbar{
-    background: tomato;
+    background: tomato;padding:2px;
 }
-#navbar ul{list-style: none;font-size: 50px;
+#navbar ul{list-style: none;font-size: 50px;color: red;
 
 }
 #navbar li{display: inline;margin: 0 2%;
 
 }
-#navbar a{font-size: 30%;color: black;}
+#navbar a{font-size: 30%;color: black; }
 #left{float: left;width: 75%;
     padding: 0 30px;
     box-sizing: border-box;}
@@ -48,13 +48,16 @@ margin: 0;}
     color: white;
      padding: 10px 0;
 }
+.footer{
+    background: black;text-align: center;font-size: 30px;padding: 10% 45%;
+}
 
      .l1 {
         display: grid;
         padding: 30px;
         grid-gap: 20px;
         grid-template-columns: auto auto 30%;
-        grid-template-rows: 75px auto auto auto auto;
+        grid-template-rows: 100px auto auto auto auto;
     }
 
     .l1 div {
@@ -64,14 +67,15 @@ margin: 0;}
     #r1 {
         grid-area: 1/1/span 1/span 3;
         background: yellow;
-        font-size: 35px;
-        padding-bottom: 85px;
+        font-size: 175%;
+        padding-top: 3%;
+        padding-left: 2%;
     }
 
     #r2 {
         grid-area: 2/1/5/3;
-        background: rgb(247, 119, 119);
-        font-size: 15px;padding: 30px;
+        background: rgb(4, 4, 78);
+        font-size: 20px;padding: 30px;color: white;
     }
 
     #c2 {
@@ -90,7 +94,7 @@ margin: 0;}
     @media(max-width: 600px) {
         #r2 {
             grid-area: 2/1/2/4;
-            background-color: rgb(247, 119, 119) !important;margin: 10px 0;padding-bottom: 200px;
+            background-color: rgb(4, 4, 78) !important;margin: 10px 0;padding-bottom: 200px;
         }
 
         #id1 {
@@ -108,4 +112,4 @@ margin: 0;}
             padding-bottom: 30px;
         }
     }
-img{height: 300px;width: 300px;margin: 50px 0;}
+img{height: 30%;width: 70%;margin: 2% 0;}
